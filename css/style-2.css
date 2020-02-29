@@ -1,0 +1,232 @@
+/* ========================================================== Home-2 Page CSS Code Start ============================================== */
+.slider-area {
+	background-image: url(../img/bg.png);
+	background-size: cover;
+	background-position: center;
+	background-color: #ddd;
+	color: #fff;
+	line-height:1.8;
+	padding: 80px 0;
+}
+.boxed-btn, input[type="submit"], button[type="submit"]{background-color: #24d5a1;}
+.email-subscribe-form input[type="submit"] {border: 1px solid #24d5a1;}
+.slider-area h1 {
+  color: #fff;
+  font-size: 45px;
+  margin-top: 90px;
+}
+/*================
+ Services Section Start 
+ ==================*/
+.about-text {margin-top: 50px;}
+h3 {font-size: 20px;}
+.about-text h3 {margin-bottom: 25px;}
+.about-text .boxed-btn {margin-top: 15px;}
+.single-service-item-table {
+  display: block;
+  height: 250px;
+  background: #fbfbfb;
+  display: table;
+  width: 100%;
+  text-align: center;
+}
+.service-item-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 30px;
+}
+.service-icon {
+  color: #2ea5f6;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.single-service-item-table:hover {
+	background: #22bfbf;
+	background: linear-gradient(to bottom, #22bfbf 0%, #4783e8 100%);
+}
+.single-service-item-table:hover i.fas, .single-service-item-table:hover h3 {color: #fff;}
+/*========================
+ Services Section Stop 
+===========================*/
+
+/*====================
+ Testimonial CSS Start 
+ ======================*/
+.testimonial-icon {
+  border: 1px solid #ddd;
+  background: #fff;
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  line-height: 58px;
+  text-align: center;
+  color: #2ea5f6;
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+.single-testimonial-item.theme-2 {
+  color: #373737;
+  line-height: 2;
+}
+.single-testimonial-item.theme-2 h4 {
+  font-size: 18px;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+.single-testimonial-item.theme-2 h4 span {
+  display: block;
+  font-size: 14px;
+  color: #999;
+  font-weight: 300;
+  margin-top: 10px;
+}
+/*===========================
+ Testimonial CSS Start 
+ ==========================*/
+ 
+/*==========================
+Case Study Preview CSS Start 
+===========================*/
+.case-study-preview-1{background-image: url(../img/branding-1.jpg);}
+.case-study-preview-2{background-image: url(../img/branding-2.jpg);}
+.case-study-preview-3{background-image: url(../img/branding-3.jpg);}
+.case-study-link-table {
+  display: table;
+  width: 100%;
+  height: 300px;
+  background-color: #ddd;
+  background-size: cover;
+  background-position: center;
+}
+.case-study-link-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+  transform: scale(.8);
+}
+.case-study-link-tablecell:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #2ea5f6;
+  z-index: -1;
+  opacity: .8;
+}
+.case-study-link-tablecell .boxed-btn {
+  color: #333;
+  background-color: #fff;
+}
+.case-study-box-style-2 h4 {
+  margin: 20px;
+}
+.case-study-box-style-2 {
+  text-align: center;
+}
+.case-study-box-style-2 h4 span {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #999;
+}
+.case-study-box-style-2:hover .case-study-link-tablecell {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+/*=========================
+ Case Study Preview CSS Stop 
+ ============================*/
+/*==========================
+ pricing Box CSS Start 
+ ==========================*/
+.theme-2 .pricing-heading {
+  background: #fbfbfb;
+  padding: 20px;
+}
+.single-pricing-box.theme-2 {
+  padding: 0;
+  margin: 0;
+}
+.theme-2 .pricing-count {
+  color: #2ea5f6;
+}
+.single-pricing-box.theme-2 p {
+  margin: 0;
+}
+.theme-2 .pricing-content .boxed-btn {
+  display: block;
+  border-radius: 0;
+}
+.single-pricing-box.theme-2:hover, .single-pricing-box:hover .pricing-heading {
+  border-color: #f8f8f8;
+}
+/*=====================
+ pricing Box CSS Stop 
+ ===========================*/
+ 
+/*==================
+ Single blog CSS Start 
+ =====================*/
+.single-blog-box {
+  border: 1px solid #f5f5f5;
+  padding: 30px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+}
+.single-blog-box h3 {
+  font-size: 20px;
+  line-height: 1.5;
+}
+.blog-readmore-btn{
+  color: #39ca74;
+  font-weight: 400;
+}
+.blog-readmore-btn i.zmdi {
+  padding-left: 5px;
+}
+.single-blog-box:hover {
+  border-color: #fbfbfb;
+  background-color: #fbfbfb;
+  transition: .3s;
+}
+/*========================
+ Single blog CSS Stop 
+ =========================*/
+ 
+/*==========================
+ CTA Area CSS Start 
+ ========================*/
+.cta-area.theme-2 {
+  background-color: #3baaf6;
+  padding: 40px 0;
+}
+.cta-area.theme-2 h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.cta-area.theme-2 .boxed-btn {
+  background-color: #fff;
+  color: #333;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.cta-area.theme-2 .boxed-btn:hover {
+  background-color: lightcoral;
+  color: #fff;
+}
+/*================== 
+CTA area Box CSS Stop 
+=========================*/
+/* ========================================================== Home-2 Page CSS Code Stop ============================================== */

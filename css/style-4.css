@@ -1,0 +1,356 @@
+/*=================== hompage 4 page Css ===============================*/
+.homepage-own-slides {
+	background-image: url(../img/new-slide-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-color: #ddd;
+	position: relative;
+	z-index: 1;
+}
+.boxed-btn, input[type="submit"], button[type="submit"] {background: #24d5a1;}
+.header-area img {
+	height: 30px;
+	width: 135px;
+}
+html, body, .homepage-own-slides, .single-slide-item {
+  height: 100%;
+}
+.single-slide-item {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.slide-item-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  font-weight: 300;
+}
+.slide-item-tablecell h2 {
+  font-size: 43px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 55px;
+}
+.website-check-form {
+  margin-top: 30px;
+}
+.website-check-form input {
+  background-color: #0b3b4b;
+  border-color: #0b3b4b;
+  color: #fff;
+}
+.website-check-form input[type="submit"], .website-check-form button[type="submit"] {
+  background-color: #24d5a1;
+}
+.homepage-own-slides:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #073b4c;
+  z-index: -1;
+  opacity: .25;
+}
+/* ====================
+oFFcanvas Menu Start 
+=====================*/
+.offcanvas-menu {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  background: #0b3b4b;
+  width: 300px;
+  padding: 40px;
+  height: 100%;
+  /* menu hide cose*/
+  left: -300px;
+  opacity: 0;
+  visibility:hidden;
+  transition:.3s;
+}
+	/* Offcanvas menu extra css start */
+.offcanvas-menu.show-offcanvas-menu{
+	left: 0;
+	opacity: 1;
+	visibility: visible;
+}
+	/* Offcanvas menu extra css stop */
+.menu-close {
+  position: absolute;
+  right: 0;
+  color: #fff;
+  top: 0;
+  padding: 20px;
+  cursor: pointer;
+}
+.offcanvas-menu a {color: #fff;}
+.menu-logo {
+  text-transform: uppercase;
+  border: 1px solid #ddd;
+  display: inline-block;
+  padding: 8px 20px 8px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.offcanvas-menu ul {
+  margin: 0;
+  list-style: none;
+  font-size: 120%;
+  line-height: 2.3;
+}
+.offcanvas-menu a:hover {opacity: .5;}
+.menu-trigger, .search-trigger {
+  display: inline-block;
+  font-size: 18px;
+  padding: 11px 0 5px;
+  cursor: pointer;
+}
+	/* offcanvas menu shade start */
+.offvanvas-menu-shade {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: #0b3b4b;
+	z-index: 98;
+	opacity: 0;
+	visibility: hidden;
+	transition: .3s;
+}
+.offvanvas-menu-shade.active{opacity: .7;visibility: visible;}
+	/* offcanvas menu shade stop */
+/* ================
+oFFcanvas Menu Start 
+==================*/
+
+/* ==========================
+ info gallery Section Start 
+ =============================== */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+.info-gallery {
+  position: relative;
+  padding-right: 20px;
+}
+.info-gallery img {
+  box-shadow: 5px 5px 5px #ddd;
+  border-radius: 3px;
+}
+.absolute-bg-1 {
+  position: absolute;
+  left: 0;
+  top: 80px;
+}
+.inline-btn {
+  color: #24d5a1;
+  display: inline-block;
+  padding-top: 18px;
+}
+body {
+  font-weight: 300;
+  line-height: 1.6;
+}
+/* ================================
+info gallery Section Stop 
+================================= */
+
+/* ==============================
+ Service Section Start 
+ =============================== */
+.service-section:before{background-image: url(../img/service-bg.jpg);}
+.service-box-2 {
+  margin-bottom: 50px;
+  min-height: 200px;
+}
+.service-icon {
+  color: #24d5a1;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.service-section {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 40px;
+  padding-top: 90px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+.service-section:before {
+  content: "";
+  position: absolute;
+  top: -60px;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 6px 5px #bfbaba;
+  border-radius: 3px;
+}
+.service-section::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 55%;
+  background: #fdfdfd;
+  z-index: -1;
+  box-shadow: 0 0 5px #f4f4f4;
+}
+/* ===============================
+Service Section Stop 
+================================== */
+
+/* ===========================
+ Features Section start 
+ ============================= */
+.shadow-img {
+  box-shadow: 0 0 19px #f5f5f5;
+}
+.single-feature-item {
+  margin-top: 50px;
+  position: relative;
+  padding-left: 55px;
+}
+.feature-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #24d5a1;
+  font-size: 40px;
+  line-height: 40px;
+}
+/* =============================
+ Features Section Stop 
+ ============================= */
+/* ===========================
+ Testimonials Section Start 
+ =============================== */
+.testimonial-text {
+  padding: 24px;
+  position: relative;
+  z-index: 1;
+  transition:.3s;
+}
+.testimonial-text p:last-child {
+  margin-bottom: 0;
+}
+.quote-icon {
+  margin-bottom: 20px;
+  font-size: 120%;
+}
+.testimonial-text:after {
+  content: "";
+  position: absolute;
+  left: 30px;
+  bottom: -15px;
+  width: 30px;
+  height: 30px;
+  background: #24d5a1;
+  transform: rotate(45deg);
+  /* Comment Css Active code */
+  /* display: none; */
+  opacity: 0;
+  visibility: hidden;
+  transition:.3s;
+}
+.testimonial-bottom {
+  margin-top: 50px;
+  margin-left: 16px;
+  opacity: 0;
+  visibility: hidden;
+}
+.testimonial-bottom p {
+  display: inline-block;
+  color: #999;
+}
+.author-details strong {
+  color: #333;
+  font-weight: 700;
+}
+.testimonial-bottom img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: -24px;
+  margin-right: 10px;
+}
+	/* Comment Css Active code */
+.active .testimonial-text {
+  background-color: #24d5a1;
+  color: #fff;
+}
+/* .active .testimonial-text:after {display: block;} */
+.active .testimonial-bottom, .active .testimonial-text:after {
+  opacity: 1;
+  visibility: visible;
+  transition:.3s;
+}
+/* ========================
+ Testimonials Section Stop 
+ ====================== */
+
+ /* ======================== 
+ Footer & Copyright Section Start 
+ ============================== */
+.footer-area.theme-4 {
+  background-color: #0b3b4b;
+}
+.footer-area.theme-4, .footer-area.theme-4 a, .footer-area.theme-4 h4 {
+  color: #fff;
+}
+.theme-4 .email-subscribe-form input[type="email"] {
+  color: #333;
+  border: 10px;
+}
+.theme-4 .email-subscribe-form {
+  margin-top: 40px;
+}
+.theme-4 .email-subscribe-form input[type="submit"] {
+  border: 1px solid #24d5a1;
+}
+.copyright-area.theme-4 {
+  background-color: #102e37;
+}
+.copyright-area.theme-4 p {
+  color: #fff;
+}
+/* ========================
+ Footer & Copyright Section Stop 
+ ================================ */
+/* ===================== Services v1 Page CSS ====================*/
+.single-service-box:hover {border-color: #24d5a1;}
+.single-service-box:hover a.service-readmore-btn, .single-service-box:hover h3, .single-service-box:hover i {
+	color: #24d5a1;
+}
+/*===================
+Pricing Section Css
+=======================*/
+.single-pricing-box:hover {
+  border-color: #24d5a1;
+}
+.pricing-count {
+  color: #24d5a1;
+}
+.pricing-heading {
+  border-color: #24d5a1;
+}
+/*====================
+Case Study Details CSS
+====================*/
+.slide-bg-area h2 {font-size: 32px;}
+/*=======================
+blog page Css
+========================*/
+.single-blog-box {
+	display: block;
+	margin: 15px 0;
+	color: #333;
+}
